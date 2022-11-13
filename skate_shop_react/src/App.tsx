@@ -5,7 +5,6 @@ import CardItens from "./components/CardItens";
 import Itens from "./components/Itens";
 
 function App() {
-  const itens = { name: "item", price: 2.0 };
 
   return (
     <div className="App">
