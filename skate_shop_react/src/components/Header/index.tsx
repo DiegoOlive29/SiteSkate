@@ -1,7 +1,9 @@
+import { HeaderTop } from "./styleds"
+
 const Header=() =>{
 
     return (
-        <h1>"oi"</h1>
+        <HeaderTop></HeaderTop>
     )
 }
 

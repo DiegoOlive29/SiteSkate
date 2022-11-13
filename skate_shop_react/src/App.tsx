@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import CampoDeItens from "./components/CampoDeItens";
 import CardItens from "./components/CardItens";
 import Itens from "./components/Itens";
+import { GlobalStyle } from "./styles/global";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Itens></Itens>
       <CardItens></CardItens>
     <CampoDeItens></CampoDeItens>
+    <GlobalStyle/>
      
     </div>
   );
