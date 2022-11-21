@@ -10,7 +10,7 @@ export const MainProduct = styled.main`
     flex-wrap       : wrap;
     justify-content : center;
     gap             : 10px;
-    margin-top      : 10px;
+    margin-top      : 20px;
     
 
     
