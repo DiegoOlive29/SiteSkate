@@ -31,6 +31,6 @@ export const GlobalStyle = createGlobalStyle`
         max-width: 100%;
     }
     body{
-        background-color:var(--black)
+        background-color:var(--black);
     }
 `

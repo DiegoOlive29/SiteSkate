@@ -1,7 +1,17 @@
+import CardItens from "../CardItens"
+import { MainProduct } from "./styleds"
 const CampoDeItens=() =>{
 
     return (
-        <h1>"oi"</h1>
+        <MainProduct>
+        <CardItens></CardItens>
+        <CardItens></CardItens>
+
+        <CardItens></CardItens>
+
+        <CardItens></CardItens>
+
+        </MainProduct>
     )
 }
 

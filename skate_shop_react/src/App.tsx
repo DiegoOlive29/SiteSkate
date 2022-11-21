@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
      <Header></Header>
-      <Itens></Itens>
-      <CardItens></CardItens>
-    <CampoDeItens></CampoDeItens>
+     <CampoDeItens></CampoDeItens>
+     
+  
     <GlobalStyle/>
      
     </div>
