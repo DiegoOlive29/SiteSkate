@@ -4,18 +4,20 @@ import CampoDeItens from "./components/CampoDeItens";
 import CardItens from "./components/CardItens";
 import Itens from "./components/Itens";
 import { GlobalStyle } from "./styles/global";
+import Providers from "./providers";
 
 function App() {
 
   return (
-    <div className="App">
-     <Header></Header>
-     <CampoDeItens></CampoDeItens>
-     
-  
-    <GlobalStyle/>
-     
-    </div>
+    <>
+    <Providers>
+      <Header></Header>
+      <CampoDeItens></CampoDeItens>
+      
+    
+      <GlobalStyle/>
+    </Providers>
+    </>
   );
 }
 
