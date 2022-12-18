@@ -8,8 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     --greendetail:#0b8337;
     --white:#fff;
     --red:rgb(255,0,0);
-    --grey: #333;
-    
+    --grey: #333;  
 
 
     }
@@ -31,6 +30,6 @@ export const GlobalStyle = createGlobalStyle`
         max-width: 100%;
     }
     body{
-        background-color:var(--black)
+        background-color:var(--black);
     }
 `
