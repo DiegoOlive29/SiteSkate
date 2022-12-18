@@ -4,7 +4,7 @@ export const Product = styled.main`
 
     background-color: var(--black);
     width           : 350px;
-    height          : 500px;
+    min-height          : 500px;
     display         : flex;
     align-items     : center;
     flex-direction  : column;
@@ -12,22 +12,28 @@ export const Product = styled.main`
     color           : var(--white);
     border          : solid 2px var(--green);
     
+    
      
 `
 
 export const ImgCamp = styled.img`
     width           :200px;
     height          :200px;
+    :hover{
+        zoom        :10;
+    }
+
 `
 
 
 
 export const TitleProduct = styled.h2`
+padding-left    : 5px;
 
 `
 
 export const DescProduct = styled.span`
-   
+    padding-left    : 5px;
         `
 
 export const ButtonProduct = styled.button`
@@ -38,6 +44,10 @@ export const ButtonProduct = styled.button`
     border          : none;
     font-size       : 16px;
     font-weight     : bold;
+    :hover{
+    background-color: var(--greendetail);
+    transition      : 1s;
+    }
   
 
     `
@@ -64,8 +74,6 @@ export const Category = styled.div`
     justify-content : center;
     
 
-    
-
 `
 export const DivImg = styled.div`
     width           : 100%;
@@ -74,6 +82,8 @@ export const DivImg = styled.div`
     align-items     : flex-end;
     justify-content : flex-start;
     background-color: var(--white);
+
+    
 `
 
 

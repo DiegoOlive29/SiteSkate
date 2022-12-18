@@ -15,8 +15,8 @@ const CardItens=({list}:ICard) =>{
             <DescProduct>{list.textDescription}</DescProduct>
             
             <ValueCamp>
-            <ButtonProduct>Add Car</ButtonProduct>
-                 {list.price}
+            <ButtonProduct>Adicionar ao carrinho</ButtonProduct>
+                 R$: {list.price}
             </ValueCamp>
         </Product>
     )
