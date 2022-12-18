@@ -1,15 +1,28 @@
+import  { useContext, } from "react";
 import CardItens from "../CardItens"
 import { MainProduct } from "./styleds"
-const CampoDeItens=() =>{
+import { MainFunctionContext } from "../../context/MainContext"
+import { InterfaceProduct } from "../../context/MainContext"
 
+const CampoDeItens=() =>{
+    const {product} = useContext(MainFunctionContext)
+    console.log(product)
     return (
         <MainProduct>
-        <CardItens></CardItens>
-        <CardItens></CardItens>
-
-        <CardItens></CardItens>
-
-        <CardItens></CardItens>
+            {product === undefined?
+                ('')
+            :
+                (product?.map((item:InterfaceProduct)=>
+                        {
+                            return(
+                            <CardItens key={item.title} list={item}/>
+                            )
+                        }
+                    )
+                )
+            }
+    
+        
 
         </MainProduct>
     )
