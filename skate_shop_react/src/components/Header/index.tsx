@@ -5,7 +5,7 @@ const Header=() =>{
     return (
         <HeaderTop>
             <Centro>
-                <a href="..."><img className='logo' src={logo} alt="Logo"/></a>
+                <a href="/"><img className='logo' src={logo} alt="Logo"/></a>
                 <Left>    
                     <ButtonHeader>Todos</ButtonHeader>
                     <ButtonHeader>Shape</ButtonHeader>
