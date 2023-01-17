@@ -4,6 +4,9 @@ export const MainProduct = styled.main`
 
     background-color: var(--black);
     width           : 80%;
+    max-width       : 1400px;
+
+
     display         : flex;
     align-items     : center;
     flex-direction  : row;
