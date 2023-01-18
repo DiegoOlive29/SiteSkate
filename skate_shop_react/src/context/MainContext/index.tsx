@@ -41,7 +41,7 @@ export const MainFunctionContext = createContext({}as MainContextData);
 
 export const MainFunctionProviders=({children}: MainContextProviderType) =>{
     const [product, setProduct] = useState([
-        
+
         {srcImg:produto1,
         category:"Shape",
         title:"SHAPE HATCHED RED BLUE 7.8 ELEMENT",
@@ -171,7 +171,12 @@ export const MainFunctionProviders=({children}: MainContextProviderType) =>{
 
     ] )
 
-    const cartItens: InterfaceProduct[] = []
+    const cartItens: InterfaceProduct[] = [{srcImg:produto1,
+        category:"Shape",
+        title:"SHAPE HATCHED RED BLUE 7.8 ELEMENT",
+        textDescription:"Shape element, com logo personalizado na parte de baixo, tamanho unico e furagem padrão.",
+        price:"350.00"
+    }]
 
     return(
         <MainFunctionContext.Provider   value={{product,cartItens}}>

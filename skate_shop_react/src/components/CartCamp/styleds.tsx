@@ -2,10 +2,10 @@ import styled  from "styled-components";
 
 export const Cart = styled.div`  
 
-    background-color: var(--grey);
+    background      : var(--grey);
     width           : 300px;
     max-width       : 700px;
-    height          : 100px;
+    min-height      : 100px;
     display         : flex;
     align-items     : flex-start;
     flex-direction  : row;
@@ -13,8 +13,9 @@ export const Cart = styled.div`
     justify-content : center;
     color           : var(--white);
     font-weight     : bold;
-    gap             : 10px;
     margin-top      : 20px;
+    border          : var(--green) 2px solid;;
+
     `
 
 
@@ -41,7 +42,8 @@ export const BarSearch = styled.div`
     background-color: var(--white);
     color           : var(--black);
     font-weight     : bold;
-    border          : var(--green) 2px solid;
+    border-bottom   : var(--green) 2px solid;
+    margin-bottom   : 10px;
 
     :hover{
         border          : var(--green) 2px solid;
